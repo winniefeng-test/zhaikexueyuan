@@ -44,7 +44,7 @@ public class UsersController {
         if(b){
             return "登陆成功!!";
         }else{
-            return "登录失败!";
+            return "登录失败!!";
         }
     }
 }
