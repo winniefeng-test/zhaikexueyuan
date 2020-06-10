@@ -42,7 +42,7 @@ public class UsersController {
     public String validate(String uname, String pwd){
         boolean b = usersService.validateUser(uname, pwd);
         if(b){
-            return "登陆成功!";
+            return "登陆成功!!";
         }else{
             return "登录失败!";
         }
