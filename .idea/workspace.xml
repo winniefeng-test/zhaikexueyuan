@@ -67,6 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -334,10 +335,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591871075952" />
-    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1591871187316">
+    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1591872303802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591871187316" />
+    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591872303802" />
     <state x="726" y="230" key="FileChooserDialogImpl" timestamp="1591776138507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -398,9 +399,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591776063663" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1591779973960">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1591872317794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591779973960" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591872317794" />
   </component>
 </project>
