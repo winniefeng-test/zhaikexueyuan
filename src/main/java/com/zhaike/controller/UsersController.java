@@ -41,10 +41,13 @@ public class UsersController {
     @ResponseBody
     public String validate(String uname, String pwd){
         boolean b = usersService.validateUser(uname, pwd);
+        usersService.getAllUsers();
         if(b){
             return "登陆成功!!";
         }else{
             return "登录失败!!";
         }
     }
+
+
 }
