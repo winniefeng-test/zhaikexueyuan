@@ -6,20 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8008bdd0-59e5-4681-a4ec-1d3e000dab8b" name="Default Changelist" comment="登录 失败提示">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhaike/controller/DirectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhaike/service/DirectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhaike/service/impl/DirectionServiceImpl.java" afterDir="false" />
+    <list default="true" id="8008bdd0-59e5-4681-a4ec-1d3e000dab8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaike/controller/DirectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaike/controller/DirectionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaike/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaike/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaike/entity/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaike/entity/UsersExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaike/mapping/UsersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaike/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaike/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhaike/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhaike/service/impl/UsersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mbg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhaike/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhaike/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UsersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mbg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zhaike/WEB-INF/classes/com/zhaike/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zhaike/WEB-INF/classes/com/zhaike/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zhaike/WEB-INF/classes/mapping/UsersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zhaike/WEB-INF/classes/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/zhaike/WEB-INF/classes/mbg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +276,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591768162542</updated>
       <workItem from="1591768170723" duration="9515000" />
-      <workItem from="1591870579334" duration="1704000" />
+      <workItem from="1591870579334" duration="1804000" />
+      <workItem from="1591919805610" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="新增代码">
       <created>1591776274726</created>
@@ -310,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591779965722</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增实体信息">
+      <created>1591872305028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591872305028</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +324,8 @@
     <MESSAGE value="新增代码" />
     <MESSAGE value="!" />
     <MESSAGE value="登录 失败提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录 失败提示" />
+    <MESSAGE value="新增实体信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增实体信息" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Tomcat_Server" timestamp="1591769065820">
@@ -347,54 +352,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="817" y="415" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591776324460" />
-    <state width="1675" height="262" key="GridCell.Tab.0.bottom" timestamp="1591871835926">
+    <state width="1577" height="450" key="GridCell.Tab.0.bottom" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835926" />
-    <state width="1675" height="262" key="GridCell.Tab.0.center" timestamp="1591871835926">
+    <state width="1577" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.0.center" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835926" />
-    <state width="1675" height="262" key="GridCell.Tab.0.left" timestamp="1591871835926">
+    <state width="1577" height="450" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.0.left" timestamp="1591921161957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835926" />
-    <state width="1675" height="262" key="GridCell.Tab.0.right" timestamp="1591871835926">
+    <state width="1577" height="450" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161957" />
+    <state width="1577" height="450" key="GridCell.Tab.0.right" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835926" />
-    <state width="1675" height="262" key="GridCell.Tab.1.bottom" timestamp="1591871835748">
+    <state width="1577" height="450" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.1.bottom" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835748" />
-    <state width="1675" height="262" key="GridCell.Tab.1.center" timestamp="1591871835748">
+    <state width="1577" height="450" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.1.center" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835748" />
-    <state width="1675" height="262" key="GridCell.Tab.1.left" timestamp="1591871835748">
+    <state width="1577" height="450" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.1.left" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835748" />
-    <state width="1675" height="262" key="GridCell.Tab.1.right" timestamp="1591871835748">
+    <state width="1577" height="450" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.1.right" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835748" />
-    <state width="1675" height="262" key="GridCell.Tab.2.bottom" timestamp="1591871835749">
+    <state width="1577" height="450" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.2.bottom" timestamp="1591921161959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835749" />
-    <state width="1675" height="262" key="GridCell.Tab.2.center" timestamp="1591871835749">
+    <state width="1577" height="450" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161959" />
+    <state width="1577" height="450" key="GridCell.Tab.2.center" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835749" />
-    <state width="1675" height="262" key="GridCell.Tab.2.left" timestamp="1591871835749">
+    <state width="1577" height="450" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.2.left" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835749" />
-    <state width="1675" height="262" key="GridCell.Tab.2.right" timestamp="1591871835749">
+    <state width="1577" height="450" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
+    <state width="1577" height="450" key="GridCell.Tab.2.right" timestamp="1591921161958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1675" height="262" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591871835749" />
+    <state width="1577" height="450" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591921161958" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1591776063663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
