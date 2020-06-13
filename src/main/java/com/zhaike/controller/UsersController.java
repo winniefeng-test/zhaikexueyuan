@@ -37,6 +37,8 @@ public class UsersController {
     }
 
     //验证用户信息
+    //允许跨域访问
+    @CrossOrigin(origins = "*")
     @RequestMapping("/validate")
     @ResponseBody
     public String validate(String uname, String pwd){

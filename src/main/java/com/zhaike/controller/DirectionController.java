@@ -16,6 +16,7 @@ public class DirectionController {
     @Autowired
     DirectionService directionService;
 
+    @CrossOrigin(origins = "*")
     @RequestMapping("/allDirections")
     @ResponseBody
     public List<Direction>  allDirections(){

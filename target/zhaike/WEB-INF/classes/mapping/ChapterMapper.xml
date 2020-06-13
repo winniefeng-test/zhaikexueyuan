@@ -7,6 +7,7 @@
     <result column="section" jdbcType="VARCHAR" property="section" />
     <result column="courseId" jdbcType="INTEGER" property="courseid" />
     <result column="videoUrl" jdbcType="VARCHAR" property="videourl" />
+    <result column="videoIcon" jdbcType="VARCHAR" property="videoicon" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -67,7 +68,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, chapter, section, courseId, videoUrl
+    id, chapter, section, courseId, videoUrl, videoIcon
   </sql>
   <select id="selectByExample" parameterType="com.zhaike.entity.ChapterExample" resultMap="BaseResultMap">
     select
@@ -101,9 +102,11 @@
   </delete>
   <insert id="insert" parameterType="com.zhaike.entity.Chapter">
     insert into chapter (id, chapter, section, 
-      courseId, videoUrl)
+      courseId, videoUrl, videoIcon
+      )
     values (#{id,jdbcType=INTEGER}, #{chapter,jdbcType=VARCHAR}, #{section,jdbcType=VARCHAR}, 
-      #{courseid,jdbcType=INTEGER}, #{videourl,jdbcType=VARCHAR})
+      #{courseid,jdbcType=INTEGER}, #{videourl,jdbcType=VARCHAR}, #{videoicon,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.zhaike.entity.Chapter">
     insert into chapter
@@ -123,6 +126,9 @@
       <if test="videourl != null">
         videoUrl,
       </if>
+      <if test="videoicon != null">
+        videoIcon,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -139,6 +145,9 @@
       </if>
       <if test="videourl != null">
         #{videourl,jdbcType=VARCHAR},
+      </if>
+      <if test="videoicon != null">
+        #{videoicon,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -166,6 +175,9 @@
       <if test="record.videourl != null">
         videoUrl = #{record.videourl,jdbcType=VARCHAR},
       </if>
+      <if test="record.videoicon != null">
+        videoIcon = #{record.videoicon,jdbcType=VARCHAR},
+      </if>
     </set>
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -177,7 +189,8 @@
       chapter = #{record.chapter,jdbcType=VARCHAR},
       section = #{record.section,jdbcType=VARCHAR},
       courseId = #{record.courseid,jdbcType=INTEGER},
-      videoUrl = #{record.videourl,jdbcType=VARCHAR}
+      videoUrl = #{record.videourl,jdbcType=VARCHAR},
+      videoIcon = #{record.videoicon,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -197,6 +210,9 @@
       <if test="videourl != null">
         videoUrl = #{videourl,jdbcType=VARCHAR},
       </if>
+      <if test="videoicon != null">
+        videoIcon = #{videoicon,jdbcType=VARCHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
@@ -205,7 +221,8 @@
     set chapter = #{chapter,jdbcType=VARCHAR},
       section = #{section,jdbcType=VARCHAR},
       courseId = #{courseid,jdbcType=INTEGER},
-      videoUrl = #{videourl,jdbcType=VARCHAR}
+      videoUrl = #{videourl,jdbcType=VARCHAR},
+      videoIcon = #{videoicon,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>
