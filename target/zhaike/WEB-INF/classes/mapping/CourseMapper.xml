@@ -93,13 +93,13 @@
     <!--    </if>-->
     <!--  </select>-->
     <resultMap type="com.zhaike.entity.Course" id="allCourses" extends="BaseResultMap">
-        <collection property="chapters" ofType="com.zhaike.entity.Chapter" select="selectchapters" column="{courseId=id}">
+        <collection property="chapters" ofType="com.zhaike.entity.Chapter" select="selectchapters"
+                    column="{courseId=id}">
         </collection>
     </resultMap>
     <!--自定义查询sql-->
     <select id="selectAllCourses" resultMap="allCourses">
-    select *
-    from course c
+    select *  from course c
   </select>
     <select id="selectchapters" resultMap="com.zhaike.mapping.ChapterMapper.BaseResultMap">
         select * from chapter where courseId = #{courseId}
